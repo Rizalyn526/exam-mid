@@ -3,6 +3,7 @@ const products = [
     { "id": 2, "name": "Headphones", "price": 100, "stock": 10, "image": "https://img.freepik.com/free-photo/levitating-music-headphones-display_23-2149817601.jpg" },
     { "id": 3, "name": "Keyboard", "price": 50, "stock": 20, "image": "https://img.freepik.com/free-photo/white-keyboard-plant_23-2148708805.jpg" }
 ];
+
 const productContainer = document.getElementById('product-list');
 
 products.forEach(product => {
